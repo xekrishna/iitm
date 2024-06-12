@@ -29,7 +29,6 @@ body {
     animation: rotate 6s infinite alternate linear;
     padding: 0 24px 0 24px;
     place-items: center;
-    overflow: hidden;
 }
 
 #preloader {
