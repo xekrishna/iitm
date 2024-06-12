@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background: url(low-poly-grid-haikei\ \(1\).svg) no-repeat cover;
+}
+
+header {
+    text-align: center;
+    width: 96%;
+    height: 10%;
+    margin: 0 auto 20px auto;
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.center {
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    max-width: 60%;
+    min-width: 60%;
+    max-height: 70%;
+    min-height: auto;
+    position: absolute;
+    flex-direction: column;
+    left: 20px;
+    background-color:darkslategrey;
+    border-radius: 5px;
+}
+
+article > h2,p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects {
+    display: flex;
+    max-width: 30%;
+    min-width: 30%;
+    max-height: 70%;
+    background-color: slateblue;
+    flex-direction: column;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+}
+
+.projects > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+.projects > p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+}
+
+.projects > ul > li > a {
+    text-decoration: none;
+    color: antiquewhite;
+}
