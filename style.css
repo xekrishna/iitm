@@ -270,12 +270,14 @@ header > div > button {
 
     
     .logo-container {
+    visibility: hidden;
     position: absolute;
     top: 20px
     left: 10px;
 }
     
     header {
+    visibility: hidden;
     font-size:15px;
     padding: o o o o;
     left: 0;
@@ -291,7 +293,7 @@ header > div > button {
 }
 
     .container {
-        margin-top: 70px;
+        margin-top: 40px;
     }
     
     article > h1 {
