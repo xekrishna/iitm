@@ -251,10 +251,29 @@ article > .buttons {
 
 @media only screen and (device-width: 1280px),
 only screen and (max-width:1280px) {
+
+.logo {
+    top: 5px;
+    mix-blend-mode: screen;
+}
+
+header > div > button {
+    background-color: transparent;
+    font-family: "SF-Heavy";
+    color: white;
+    border: transparent;
+    transition: all 0.3s;
+    font-size: 12px;
+    margin: 10px auto 0 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+    
     .logo-container {
     position: relative;
-    top: 20px
-    left: 10px;
+    top: 10px
+    left: 5px;
 }
     
     header {
